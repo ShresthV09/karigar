@@ -22,32 +22,32 @@ import {
   UserIcon,
   XMarkIcon,
   Bars3Icon,
-  GlobeAltIcon, // Added for Language
+  GlobeAltIcon, // For Language Icon
 } from "@heroicons/react/24/outline";
 
 // ==========================================
-// 🎨 IMAGE CONFIGURATION
+// 🎨 IMAGE CONFIGURATION - UPDATE LINKS HERE
 // ==========================================
 const SITE_IMAGES = {
   logo: "https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=orange&shade=600",
   hero_background:
-    "https://images.unsplash.com/photo-1721508490084-1b1de5b230d4?q=80&w=3508&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Artisan Hands
+    "https://images.unsplash.com/photo-1721508490084-1b1de5b230d4?q=80&w=3508&auto=format&fit=crop", // Artisan Hands
 
   // Trending Product Thumbnails
   product_1_thumb:
-    "https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Silk Saree
+    "https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?q=80&w=2340&auto=format&fit=crop", // Silk Saree
   product_2_thumb:
-    "https://images.unsplash.com/photo-1657395330801-2214c0d02e41?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Blue Pottery
+    "https://images.unsplash.com/photo-1657395330801-2214c0d02e41?q=80&w=3540&auto=format&fit=crop", // Blue Pottery
   product_3_thumb:
-    "https://images.unsplash.com/photo-1765329104390-959cc478c188?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWluaWF0dXJlJTIwQXJ0fGVufDB8MHwwfHx8MA%3D%3D", // Miniature Art
+    "https://images.unsplash.com/photo-1765329104390-959cc478c188?w=900&auto=format&fit=crop", // Miniature Art
   product_4_thumb:
     "https://media.istockphoto.com/id/478131300/photo/traditional-rajasthani-footwear.webp?a=1&b=1&s=612x612&w=0&k=20&c=eN6al2U1rmEazbDoawSza-OiAOrU0fI1g2eI06E4YVg=", // Jutti
 
   // Collection / Category Images
   collection_weavers:
-    "https://plus.unsplash.com/premium_photo-1675078975682-11dee6051f69?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHdlYXZlcnN8ZW58MHwwfDB8fHww",
+    "https://plus.unsplash.com/premium_photo-1675078975682-11dee6051f69?w=900&auto=format&fit=crop",
   collection_pottery:
-    "https://images.unsplash.com/photo-1675101337462-a19b63af8b1b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG90dGVyc3xlbnwwfDB8MHx8fDA%3D",
+    "https://images.unsplash.com/photo-1675101337462-a19b63af8b1b?w=900&auto=format&fit=crop",
   collection_odop:
     "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/93456ad5-17c0-5e1b-8fd2-f4e8cf258ced/5949b9bf-4fcd-5321-8acb-1118236b6f52.jpg",
 
@@ -57,7 +57,7 @@ const SITE_IMAGES = {
 
   // Footer
   footer_bg:
-    "https://images.unsplash.com/photo-1609881583306-39c8b7eea68b?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1609881583306-39c8b7eea68b?q=80&w=2342&auto=format&fit=crop",
 };
 
 // ==========================================
@@ -357,7 +357,7 @@ export default function Example() {
                 <div className="hidden lg:flex lg:items-center">
                   <Link href="/">
                     <span className="text-2xl font-bold text-orange-800 tracking-wider">
-                      KALAKAR
+                      Karigar
                     </span>
                   </Link>
                 </div>
@@ -663,7 +663,7 @@ export default function Example() {
         <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-white text-lg font-bold">KALAKAR</h3>
+              <h3 className="text-white text-lg font-bold">Karigar</h3>
               <p className="mt-4 text-sm">
                 Bridging the gap between India's rural artisans and the world.
               </p>

@@ -144,7 +144,7 @@ export default function ProductPage() {
             href="/"
             className="text-orange-800 font-bold text-xl tracking-wider"
           >
-            KALAKAR
+            Karigar
           </Link>
           <Link
             href="/"
